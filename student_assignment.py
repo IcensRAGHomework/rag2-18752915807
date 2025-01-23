@@ -13,7 +13,7 @@ def hw02_1(pdf):
     splitter = CharacterTextSplitter(chunk_size=2000, chunk_overlap=0)
     chunks = splitter.split_documents(documents)
 
-    return chunks
+    return chunks[-1]
 
 def hw02_2(pdf):
     # 使用 PyPDFLoader 加载 PDF 文件
