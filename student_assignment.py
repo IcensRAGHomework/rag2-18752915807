@@ -42,8 +42,8 @@ def hw02_2(pdf_path):
               f"{'-' * 40}")
     return len(chunks)
 
-if __name__ == "__main__":
-    # last_chunk = hw02_1(q1_pdf)
-    # print(last_chunk)
-    chunk_count = hw02_2(q2_pdf)
-    print(chunk_count)
+# if __name__ == "__main__":
+#     # last_chunk = hw02_1(q1_pdf)
+#     # print(last_chunk)
+#     chunk_count = hw02_2(q2_pdf)
+#     print(chunk_count)
