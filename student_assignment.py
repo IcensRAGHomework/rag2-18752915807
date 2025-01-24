@@ -25,6 +25,7 @@ def hw02_2(pdf_path):
         r"第\s*[一二三四五六七八九十]+\s*章\s",
         r"\n第\s*\d+\s*條",
         r"\n第\s*\d+-\d+\s*條",
+        r"第\s*\d+\s*條\n",
     ]
     splitter = RecursiveCharacterTextSplitter(
         separators=separators,
