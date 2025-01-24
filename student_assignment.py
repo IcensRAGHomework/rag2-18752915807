@@ -30,7 +30,7 @@ def hw02_2(pdf_path):
     ]
     splitter = RecursiveCharacterTextSplitter(
         separators=separators,
-        chunk_size=50,
+        chunk_size=10,
         chunk_overlap=0,
         is_separator_regex=True
     )
